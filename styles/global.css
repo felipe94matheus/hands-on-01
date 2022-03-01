@@ -372,9 +372,61 @@ header{
     height: 0.5vh;
     background-color: #C4C4C4;
     border: none;
-
 }
 
+/* CURSO AULAS */
+
+
+#banner-aulas{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-banner-aulas{
+    width: 29.94vw;
+    /* width: 460px; */
+}
+
+.titulo-banner-aulas{
+    color: #FF4081;
+    font-size: 7.70vh;
+    /* font-size: 55px; */
+}
+.subtitulo-banner-aulas{
+    color: #555555;
+    font-size: 2.8vh;
+    /* font-size: 20px; */
+}
+
+#container-menu-aulas{
+    background-color: #F6F6F6;
+}
+
+.card-aulas{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-card-aulas{
+    width: 32.61vw;
+    /* width: 501px; */
+}
+
+.titulo-card-aulas{
+    color: #FF4081;
+    font-size: 4.90vh;
+    /* font-size: 35px; */
+}
+
+.subtitulo-card-aulas{
+    color: #555555;
+    font-size: 2.8vh;
+    /* font-size: 20px; */
+}
 
 
 
