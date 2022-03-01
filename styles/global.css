@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Ubuntu', sans-serif;
+    max-width: 100%;
 }
 
 body{
@@ -13,13 +14,14 @@ body{
 
 header{
     background-color: #2E948A;
-    height: 115px;
+    height: 18vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2.8vh;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
 }
 
@@ -44,7 +46,8 @@ header{
 
 .menu-item-link{
     text-decoration: none;
-    margin: auto 20px;
+    /* margin: auto 20px; */
+    margin: auto 2.8vh;
     color: #fff;
 }  
 
@@ -65,27 +68,31 @@ header{
 .titulo-card-banner{
     color: #FF4081;
     font-weight: bold;
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 7vh;
     margin: 0;
 }
 
 .text-card-banner{
     color:#555555;
     font-weight: bold;
-    font-size: 27px;
+    /* font-size: 27px; */
+    font-size: 3.78vh;
 
 }
 
 .buttom-card-banner{
     text-decoration: none;
-    font-size: 27px;
+    /* font-size: 27px; */
+    font-size: 3.78vh;
     color: #FF4081;
     border: 2px solid #FF4081;
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 60px;
     text-align: center;
-    width: 400px;
+    /* width: 400px; */
+    width: 26vw;
     padding: 2% 6%;
     margin: 15% 0;
 }
@@ -97,9 +104,20 @@ header{
     color: #fff;
 }
 
+#image-banner-topo{
+    height: 60.5vh;
+    width: 30.98vw;
+
+}
+
 #container-investimentos{
     background-color:#F6F6F6;
     height: 25.5%;
+}
+
+#container-carrosel-investimentos{
+    margin: 0;
+    padding: 0;
 }
 
 #carrosel-investimentos{
@@ -107,40 +125,50 @@ header{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .card-investimentos{
-    width: 350px;
+    /* width: 350px; */
+    width: 22.78vw;
     margin: 5%;
     list-style: none;
 }
 
 .image-card-investimentos{
-    height: 270px;
+    /* height: 270px; */
+    height: 37.81vh;
 }
 
 .titulo-card-investimentos{
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 3.5vh;
     font-weight: bold;
     color: #FF4081;
 }
 
 .subtitulo-card-investimentos{
-    font-size: 16px;
-    text-align: justify;
+    /* font-size: 16px; */
+    font-size: 2.24vh;
+    text-align: left;
 }
 
 .buttom-card-investimentos{
     text-decoration: none;
-    font-size: 27px;
+    /* font-size: 27px; */
+    font-size: 3.78vh;
     color: #fff;
     border: 2px solid #fff;
     background-color: #FF4081;
     box-sizing: border-box;
-    border-radius: 60px;
+    /* border-radius: 60px; */
+    border-radius: 8.4vh;
     text-align: center;
-    width: 300px;
-    padding: 4% 60px;
+    /* width: 300px; */
+    width: 19.53vw;
+    /* padding: 4% 60px; */
+    padding: 4% 3.9vw;
 }
 
 .buttom-card-investimentos:hover{
@@ -152,12 +180,13 @@ header{
 
 #container-depoimentos{
     margin: 10% 5%;
-    max-height: 730px;  
+    max-height: 22.5%;  
 }
 
 .titulo-container-depoimentos{
     color:#009688;
-    font-size: 37px;
+    /* font-size: 37px; */
+    font-size: 5.18vh;
     font-weight: bold;
 }
 
@@ -165,14 +194,16 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-height: 730px;
+    max-height: 22.5%;
     margin: 0;
     padding: 0;
 }
 
 .text-card-depoimentos{
-    width: 360px;
+    /* width: 360px; */
+    width: 23.43vw;
     font-size: 18px;
+    line-height: 3.5vh;
 }
 
 .card-depoimentos{
@@ -182,7 +213,9 @@ header{
 
 .image-card-depoimentos{
     margin-right: 5%;
-}
+    /* height: 14.56vh;
+    width: 18.61vw;*/
+} 
 
 #section-conteudo{
     background-color: #F6F6F6;
@@ -196,7 +229,8 @@ header{
 .titulo-container-conteudo{
     padding: 8% 0;
     font-weight: bold;
-    font-size: 37px;
+    /* font-size: 37px; */
+    font-size: 5.18vh;
     color:#009688;
 }
 
@@ -210,18 +244,21 @@ header{
 .card-conteudo{
     list-style: none;
     text-align: justify;
-    width: 320px;
+    /* width: 320px; */
+    width: 20.83vw;
 }
 
 .titulo-card-conteudo{
     color: #009688;
-    font-size: 27px;
+    /* font-size: 27px; */
+    font-size: 3.78vh;
     font-weight: bold;
     margin-bottom: -4%;
 }
 
 .subtitulo-card-investimentos{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2.8vh;
 }
 
 #buttom-conteudo{
@@ -233,9 +270,11 @@ header{
 .buttom-container-conteudo{
     text-decoration: none;
     padding: 1% 6%;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 3.5vh;
     border: 2px solid #FF4081;
-    border-radius: 60px;
+    /* border-radius: 60px; */
+    border-radius: 8.4vh;
     color: #FF4081;
     background-color: #fff;
     text-align: center;
@@ -248,9 +287,93 @@ header{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* CURSOS */
 
+#container-cursos{
+    margin: 5%;
+    padding: 0;
+}
 
+.titulo-container-cursos{
+    color: #FF4081;
+    font-weight: bold;
+    font-size: 8.40vh;
+    /* font-size: 60px; */
+    margin-bottom: -1.5%;
+}
 
+.subtitulo-container-cursos{
+    color: #555555;
+    font-size: 2.8vh;
+    /* font-size: 20px; */
+    font-weight: normal;
+}
+
+#lista-cursos{
+    margin: 5% 0;
+    padding: 0;
+    margin-bottom: 20%;
+}
+
+.card-cursos{
+    display: flex;
+    margin: 5% 0;
+    gap: 7%;
+}
+
+.image-card-cursos{
+    width: 24.73vw;
+    /* width: 380px; */
+
+}
+
+.text-card-cursos{
+    width: 47.13vw;
+    /* width: 724px; */
+    text-align: left;
+}
+
+.titulo-card-cursos{
+    color: #FF4081;
+    font-weight: bold;
+    font-size: 4.90vh;
+    /* font-sizze: 35px; */
+}
+
+.subtitulo-card-cursos{
+    color: #555555;
+    font-weight: normal;
+    font-size: 2.52vh;
+    /* font-size: 18px; */
+    margin: 5% 0 10% 0;
+}
+
+.buttom-card-cursos{
+    text-decoration: none;
+    padding: 1% 8%;
+    /* font-size: 20px; */
+    font-size: 2.8vh;
+    border: 2px solid #419488;
+    /* border-radius: 60px; */
+    border-radius: 8.4vh;
+    color: #fff;
+    background-color:#419488;
+    text-align: center;
+}
+
+.buttom-card-cursos:hover{
+    transition: .5 all;
+    background-color: #fff;
+    color:#419488;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.traco{
+    height: 0.5vh;
+    background-color: #C4C4C4;
+    border: none;
+
+}
 
 
 
@@ -277,13 +400,15 @@ header{
 
 #container-footer{
     background-color: #419488;
-    height: 205px;
+    /* height: 205px; */
+    height: 28.71vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2.8vh;
 }
 
 .image-footer{
@@ -318,7 +443,8 @@ header{
     box-sizing: border-box;
     border-radius: 60px;
     text-align: center;
-    width: 290px;
+    /* width: 290px; */
+    width: 18.88vw;
     padding: 2%;
     margin: 2%;
 }
