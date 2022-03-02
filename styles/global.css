@@ -404,8 +404,12 @@ header{
     background-color: #F6F6F6;
 }
 
+#menu-aulas{
+    margin: 0 5%;
+}
+
 .card-aulas{
-    padding: 5%;
+    padding: 5% 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -428,6 +432,69 @@ header{
     /* font-size: 20px; */
 }
 
+/* BLOG */
+
+#container-banner-blog{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-banner-blog{
+    width: 30.01vw;
+    /* width: 461px; */
+}
+
+.titulo-banner-blog{
+    color:#009688;
+    font-weight: bold;
+    font-size: 6.58vh;
+    /* font-size: 47px; */
+}
+
+.subtitulo-banner-blog{
+    color: #555555;
+    font-size: 2.8vh;
+    /* font-size: 20px; */
+}
+
+#container-menu-posts{
+    background-color: #E5E5E5;
+    margin: 0 0;
+    padding: 5% 0;
+}
+
+#menu-posts{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 210.08vh;
+    /* height: 1500px; */
+}
+
+.card-menu-posts{
+    width: 33.72vw;
+    /* width: 518px; */
+    list-style: none;
+}
+
+.titulo-card-posts{
+    color: #FF4081;
+    font-size: 4.2vh;
+    /* font-size: 30px; */
+}
+
+.subtitulo-card-posts{
+    color: #555555;
+    font-size: 2.38vh;
+    /* font-size: 17px; */
+}
+
+/* POST */
 
 
 
