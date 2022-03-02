@@ -496,6 +496,71 @@ header{
 
 /* POST */
 
+#container-post{
+    margin: 5% 0;
+    text-align: center;
+}
+
+.titulo-post{
+    color: #FF4081;
+    font-size: 7vh;
+    /* font-size: 50px; */
+    margin-bottom: -1%;
+}
+
+.subtitulo-post{
+    color:#9D9D9D;
+    font-size: 2.52vh;
+    /* font-size: 18px; */
+    margin-bottom: 5%;
+}
+
+#post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.image-post{
+    margin-bottom: 5%;
+}
+
+#container-text-post{
+    text-align: left;
+     width: 67.18vw;
+    /* width: 1032px; */
+}
+
+.text-post{
+    margin-bottom: 5%;
+}
+
+.title-text-post{
+    color: #2E948A;
+    font-size: 4.2vh;
+    /* font-size: 30px; */
+    text-align: left;
+}
+
+#titulo-carrosel-investimentos{
+    text-align: center;
+    padding: 5% 0 0 0;
+    font-size: 7vh;
+    /* font-size: 50px; */
+    color: #FF4081;
+}
+
+/* CONTATO */
+
+
+
+
+
+
+
+
 
 
 
