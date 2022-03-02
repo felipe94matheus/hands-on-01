@@ -554,31 +554,74 @@ header{
 
 /* CONTATO */
 
+#container-contato{
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+#container-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.titulo-form{
+    color: #FF4081;
+    font-size: 5.6vh;
+    /* font-size: 40px; */
+    margin: 10% 0;
+}
 
+input, textarea{
+    margin-bottom: 5%;
+    width: 32.03vw;
+    /* width: 492px; */
+    box-sizing: border-box;
+    border-radius: 0.98vh;
+    /* border-radius: 7px; */
+    border: 0.14vh solid #686868;
+}
 
+input::placeholder, textarea::placeholder{
+    padding-left: 0.32vw;
+    /* padding-left: 5px; */
+    color:#58555D;
+    font-size: 2.24vh;
+    /* font-size: 16px; */
+}
+textarea::placeholder{
+    padding-top: 1.4vh;
+    /* padding-top: 10px; */
+}
 
+input{
+     height: 4.48vh;
+    /* height: 32px; */
+}
 
+.button-form{
+    text-decoration: none;
+    padding: 1% 4%;
+    /* font-size: 16px; */
+    font-size: 2.24vh;
+    width: 7.03vw;
+    /* width: 108px; */
+    border: 2px solid #FF4081;
+    /* border-radius: 60px; */
+    border-radius: 8.4vh;
+    color: #fff;
+    background-color:#FF4081;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button-form:hover{
+    transition: .5 all;
+    background-color: #fff;
+    color:#FF4081;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
 
 /* FOOTER */
 
