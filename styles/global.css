@@ -689,3 +689,551 @@ transition: .5 all;
 background-color: #fff;
 color: #419488;
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+
+/* HEADER */
+
+#container-header{
+    font-size: 1.5vh;
+    height: 10vh;    
+}
+
+.image-topo{
+    margin: 0 15%;
+    width: 30vw;    
+}
+
+.menu-item-link{
+    margin: auto 1vh;
+}  
+
+/* MAIN */
+
+/* HOME */
+
+#container-banner{
+    text-align: center;
+}
+
+#card-banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-card-banner{
+    font-size: 7vh;
+    width: 60vw;
+}
+
+.text-card-banner{
+    font-size: 3vh;
+}
+
+.buttom-card-banner{
+    font-size: 2.5vh;  
+    padding: 4% 10%;
+    margin: 2% 0;
+    text-align: center;
+    width: 60vw;
+}
+
+#image-banner-topo{
+     display: none;
+}
+
+.card-investimentos{
+    text-align: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-card-investimentos{
+    height: 30vh;
+    margin-bottom: -3%; 
+} 
+
+#carrosel-investimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0; 
+}
+
+.titulo-card-investimentos{
+    font-size: 3vh;
+    margin-bottom: -1%;
+}
+
+.subtitulo-card-investimentos{
+    display: none;
+}
+
+.buttom-card-investimentos{  
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    width: 55vw;
+}
+
+#container-depoimentos{
+    margin: 0 2%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.titulo-container-depoimentos{
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-card-depoimentos{
+    width: 90%;
+    font-size: 2vh;
+}
+
+.titulo-container-conteudo{
+    font-size: 5vh;
+    text-align: center;
+}
+
+#lista-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-conteudo{
+    text-align: center;
+    width: 100%;
+    padding: 5% 0;
+    gap: 5%;
+}
+.titulo-card-conteudo{
+    font-size: 3vh;
+    margin: 0;   
+}
+
+.subtitulo-card-conteudo{
+    display: none;
+}
+
+#buttom-conteudo{
+    padding: 5%;
+}
+
+.buttom-container-conteudo{
+    font-size: 2.5vh;
+}
+
+/* CURSOS */
+
+#container-cursos{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.titulo-container-cursos{
+    font-size: 12vh;
+    margin-bottom: -1.5%;
+    
+}
+
+.subtitulo-container-cursos{
+    font-size: 3vh;   
+}
+
+#lista-cursos{
+    margin: 5% 0;
+    padding: 0;
+    margin-bottom: 20%;
+    
+}
+
+.card-cursos{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.image-card-cursos{
+    display: none;
+}
+
+.text-card-cursos{
+    width: 80%;
+    text-align: center;
+}    
+
+.titulo-card-cursos{
+    font-size: 3vh;
+}
+
+.subtitulo-card-cursos{ 
+    font-size: 2vh;
+    text-align: justify;
+    margin-bottom: 15%;
+}
+
+.buttom-card-cursos{
+    text-decoration: none;
+    padding: 4% 8%;
+    font-size: 2vh;
+    text-align: center;
+}
+
+/* BLOG */
+
+#container-banner-blog{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-banner-blog{
+    display: none;
+}
+
+.text-banner-blog{
+    width: 80%;
+}
+
+.titulo-banner-blog{
+    font-size: 4vh;
+    text-align: center;
+}
+
+.subtitulo-banner-blog{
+    font-size: 2.5vh;    
+}
+
+#container-menu-posts{
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+#menu-posts{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 30%;
+}
+
+.card-menu-posts{
+    width: 45%;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.titulo-card-posts{
+    font-size: 2vh;
+}
+
+.subtitulo-card-posts{
+    display: none;
+}
+
+/* CONTATO */
+
+#container-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-form{
+    color: #FF4081;
+    font-size: 9vh;
+    /* font-size: 40px; */
+    margin: 10% 0;
+}
+
+input, textarea{
+    margin-bottom: 10%;
+    width: 100%;
+    padding: 2%;
+    font-size: 2.24vh;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 2vh;
+}
+textarea::placeholder{
+    padding-top: 0.5vh;
+    /* padding-top: 10px; */
+}
+
+
+.button-form{
+    text-decoration: none;
+    padding: 1.5% 8%;
+    font-size: 2.5vh;
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.image-contato{
+    display: none;
+}
+
+/* CURSO AULAS */
+
+#banner-aulas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-banner-aulas{
+    display: none;
+}
+
+.text-banner-aulas{
+    width: 80%
+}
+
+.titulo-banner-aulas{
+    font-size: 6vh;
+}
+.subtitulo-banner-aulas{
+    font-size: 2.5vh;
+}
+
+#menu-aulas{
+    margin: 0 5%;
+}
+
+.card-aulas{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-card-aulas{
+    width: 80%;
+}
+
+.titulo-card-aulas{
+    font-size: 5vh;
+}
+
+.subtitulo-card-aulas{
+    font-size: 2vh;
+}
+
+/* FOOTER */
+
+#container-footer{
+    height: 15vh;
+    box-sizing: border-box;
+}
+
+.image-footer{
+    width: 35vw;
+}
+
+.menu-item-footer{
+    padding: 5% 0;
+    font-size: 1.5vh;
+}
+
+.buttom-footer{
+    font-size: 1.5vh;
+    padding: 5% 0;
+}
+}
+
+@media (min-width: 767px) and (max-width: 1024px){
+
+/* HEADER */
+
+#container-header{
+    /* font-size: 20px; */
+    font-size: 2vh;    
+}
+
+.image-topo{
+    margin: 0 15%;
+    width: 30vw;    
+}
+
+.menu-item-link{
+    /* margin: auto 20px; */
+    margin: auto 1.5vh;
+}  
+
+/* MAIN */
+
+/* HOME */
+
+.titulo-card-banner{
+    font-size: 7vh;
+}
+
+.text-card-banner{
+    font-size: 4vh;
+}
+
+.buttom-card-banner{
+    font-size: 4vh;  
+    padding: 2% 8%;
+    margin: 10% 0;
+}
+
+.card-investimentos{
+    text-align: left;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+}
+
+.titulo-card-investimentos{
+    font-size: 3vh;
+    text-align: left;
+    margin-bottom: -2%;
+}
+
+.subtitulo-card-investimentos{
+    font-size: 2vh;
+    text-align: left; 
+}
+
+.buttom-card-investimentos{  
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    width: 80%;
+}
+
+#container-depoimentos{
+    margin: 0 2%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.titulo-container-depoimentos{
+    font-size: 5.5vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista-depoimentos{
+    flex-direction: column;
+    margin: 0 1%;
+}
+
+.text-card-depoimentos{
+    width: 90%;
+    font-size: 2.5vh;
+}
+
+.image-card-depoimentos{
+    width: 20vw;
+} 
+
+.titulo-container-conteudo{
+    font-size: 7vh;
+    text-align: center;
+}
+
+#lista-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-conteudo{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    padding: 5% 0;
+    gap: 5%;
+}
+.titulo-card-conteudo{
+    font-size: 7vh;
+    margin: 0;   
+}
+
+.subtitulo-card-conteudo{
+    display: none;
+}
+
+/* CURSOS */
+
+.titulo-container-cursos{
+    font-size: 14vh;
+    margin-bottom: -1.5%;
+    text-align: center;    
+}
+
+.subtitulo-container-cursos{
+    font-size: 3vh;
+    text-align: center;   
+}
+
+/* CONTATO */
+
+.button-form{
+    text-decoration: none;
+    padding: 1.5% 8%;
+    font-size: 2.5vh;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.image-contato{
+    width: 50%;
+}
+
+/* CURSO */
+
+iframe{
+    width: 50%;
+}
+
+/* FOOTER */
+
+#container-footer{
+    height: 25vh;
+}
+
+.image-footer{
+    width: 30vw;
+}
+
+.menu-item-footer{
+    padding: 6% 0;
+    font-size: 2vh;
+}
+
+.buttom-footer{
+    font-size: 2vh;
+}
+
+}
