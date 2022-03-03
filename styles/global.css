@@ -12,7 +12,10 @@ body{
 
 /* HEADER */
 
-header{
+.wrapper{
+    max-width: 104vw;
+}
+#container-header{
     background-color: #2E948A;
     height: 18vh;
     display: flex;
@@ -54,15 +57,12 @@ header{
 /* MAIN */
 
 /* HOME */
-#banner-topo{
-    height: 25.5%;
-}
 
 #container-banner{
     display: flex;
-    justify-content: center;
-    margin: 5%;
-    gap: 15%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0;
 }
 
 .titulo-card-banner{
@@ -105,19 +105,17 @@ header{
 }
 
 #image-banner-topo{
-    height: 60.5vh;
     width: 30.98vw;
-
 }
 
 #container-investimentos{
     background-color:#F6F6F6;
-    height: 25.5%;
 }
 
 #container-carrosel-investimentos{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #carrosel-investimentos{
@@ -125,13 +123,11 @@ header{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    
 }
 
 .card-investimentos{
-    /* width: 350px; */
-    width: 22.78vw;
     margin: 5%;
     list-style: none;
 }
@@ -159,14 +155,11 @@ header{
     /* font-size: 27px; */
     font-size: 3.78vh;
     color: #fff;
-    border: 2px solid #fff;
     background-color: #FF4081;
     box-sizing: border-box;
     /* border-radius: 60px; */
     border-radius: 8.4vh;
     text-align: center;
-    /* width: 300px; */
-    width: 19.53vw;
     /* padding: 4% 60px; */
     padding: 4% 3.9vw;
 }
@@ -179,8 +172,9 @@ header{
 }
 
 #container-depoimentos{
-    margin: 10% 5%;
-    max-height: 22.5%;  
+    margin: 0 5%;
+    box-sizing: border-box;
+    padding: 5%;
 }
 
 .titulo-container-depoimentos{
@@ -193,28 +187,31 @@ header{
 .lista-depoimentos{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
     justify-content: space-between;
-    max-height: 22.5%;
+    /* height: 102.24vh; */
     margin: 0;
     padding: 0;
 }
 
 .text-card-depoimentos{
     /* width: 360px; */
-    width: 23.43vw;
-    font-size: 18px;
+    width: 26vw;
+    font-size: 2.52vh;
+    /* font-size: 18px; */
     line-height: 3.5vh;
 }
 
 .card-depoimentos{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin: 3% 0;
 }
 
 .image-card-depoimentos{
     margin-right: 5%;
-    /* height: 14.56vh;
-    width: 18.61vw;*/
 } 
 
 #section-conteudo{
@@ -223,11 +220,12 @@ header{
 
 #container-conteudo{
     margin: 0 10%;
+    box-sizing: border-box;
     
 }
 
 .titulo-container-conteudo{
-    padding: 8% 0;
+    padding: 7% 0;
     font-weight: bold;
     /* font-size: 37px; */
     font-size: 5.18vh;
@@ -237,8 +235,10 @@ header{
 #lista-conteudo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .card-conteudo{
@@ -246,6 +246,7 @@ header{
     text-align: justify;
     /* width: 320px; */
     width: 20.83vw;
+    box-sizing: border-box;
 }
 
 .titulo-card-conteudo{
@@ -278,6 +279,7 @@ header{
     color: #FF4081;
     background-color: #fff;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .buttom-container-conteudo:hover{
@@ -463,6 +465,7 @@ header{
     background-color: #E5E5E5;
     margin: 0 0;
     padding: 5% 0;
+    box-sizing: border-box;
 }
 
 #menu-posts{
@@ -472,6 +475,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    box-sizing: border-box;
     height: 210.08vh;
     /* height: 1500px; */
 }
@@ -480,6 +484,7 @@ header{
     width: 33.72vw;
     /* width: 518px; */
     list-style: none;
+    box-sizing: border-box;
 }
 
 .titulo-card-posts{
@@ -582,6 +587,8 @@ input, textarea{
     border-radius: 0.98vh;
     /* border-radius: 7px; */
     border: 0.14vh solid #686868;
+    padding: 2%;
+    font-size: 2.24vh;
 }
 
 input::placeholder, textarea::placeholder{
@@ -608,12 +615,11 @@ input{
     font-size: 2.24vh;
     width: 7.03vw;
     /* width: 108px; */
-    border: 2px solid #FF4081;
-    /* border-radius: 60px; */
     border-radius: 8.4vh;
     color: #fff;
     background-color:#FF4081;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .button-form:hover{
@@ -660,6 +666,7 @@ input{
     display: flex;
     flex-direction: column;
     margin-right: 5%;
+    box-sizing: border-box;
 }
 
 .buttom-footer{
@@ -668,7 +675,7 @@ input{
     border: 2px solid #fff;
     background-color: #419488;
     box-sizing: border-box;
-    border-radius: 60px;
+    border-radius: 8.4vh;
     text-align: center;
     /* width: 290px; */
     width: 18.88vw;
